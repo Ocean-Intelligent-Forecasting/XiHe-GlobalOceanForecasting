@@ -1,7 +1,5 @@
 # XiHe-GlobalOceanForecasting
 
-## Xihe
-
 This is the official repository for the Xihe papers.
 
 [XiHe: A Data-Driven Model for Global Ocean Eddy-Resolving Forecasting](https://arxiv.org/abs/2402.02995), arXiv preprint arXiv:2402.02995, 2024.
