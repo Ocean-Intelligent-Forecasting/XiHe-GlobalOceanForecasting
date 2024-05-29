@@ -59,7 +59,7 @@ We support [GLORYS12 reanalysis](https://data.marine.copernicus.eu/product/GLOBA
 
 There are two input data files that shall be put under the `input_data/input_surface_data` and `input_data/input_deep_data`, which stores the input data for 1 to 22 layers and 23 to 33 layers respectively. The specific details of layers and variables can be found in the following text. 
 
-We provide an example of preprocessed input data, `input_surface_20190101.npy` and `input_deep_20190101.npy`, which correspond to the [daily means of GLORYS12 reanalysis](https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/files?subdataset=cmems_mod_glo_phy_my_0.083deg_P1D-m_202311) data at 2019/01/01. Please download them from [Baidu netdisk]([https://pan.baidu.com/s/18K46vXC7qFcnABHbuR-r-A?pwd=ubnx](https://pan.baidu.com/s/1Lth8ZSlo-kuOif37jNcI-g?pwd=jceh） or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=drive_link).
+We provide an example of preprocessed input data, `input_surface_20190101.npy` and `input_deep_20190101.npy`, which correspond to the [daily means of GLORYS12 reanalysis](https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/files?subdataset=cmems_mod_glo_phy_my_0.083deg_P1D-m_202311) data at 2019/01/01. Please download them from [Baidu netdisk](https://pan.baidu.com/s/1Lth8ZSlo-kuOif37jNcI-g?pwd=jceh) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=drive_link).
 
 #### Inference 
 
