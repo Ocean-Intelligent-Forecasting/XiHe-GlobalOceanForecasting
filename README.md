@@ -41,7 +41,7 @@ The downloaded files shall be organized as the following hierarchy:
 │   |   ├── inference.py
 ```
 
-First install the packaged virtual environment `pycdo`（[Baidu netdisk](https://pan.baidu.com/s/1Lth8ZSlo-kuOif37jNcI-g?pwd=jceh)）or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=drive_link) and activate the virtual environment.
+First install the packaged virtual environment `pycdo`（[Baidu netdisk](https://pan.baidu.com/s/1Lth8ZSlo-kuOif37jNcI-g?pwd=jceh)or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=drive_link)）and activate the virtual environment.
 
 
 
