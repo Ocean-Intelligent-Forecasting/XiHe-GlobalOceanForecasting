@@ -41,7 +41,7 @@ The downloaded files shall be organized as the following hierarchy:
 │   |   ├── inference.py
 ```
 
-First install the packaged virtual environment `pycdo`（[Baidu netdisk](https://pan.baidu.com/s/1Lth8ZSlo-kuOif37jNcI-g?pwd=jceh) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=drive_link)）and activate the virtual environment.
+First install the packaged virtual environment `pycdo`（[Baidu netdisk](https://pan.baidu.com/s/1cU6HL5_fK3spra6GtTFV5w?pwd=u52l) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=sharing)）and activate the virtual environment.
 
 
 
@@ -49,7 +49,7 @@ First install the packaged virtual environment `pycdo`（[Baidu netdisk](https:/
 
 #### Downloading trained models
 
-Please download the layers 1to22 and 23to33 pre-trained models for 1 to 10 days from [Baidu netdisk](https://pan.baidu.com/s/1Lth8ZSlo-kuOif37jNcI-g?pwd=jceh) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=drive_link).
+Please download the layers 1to22 and 23to33 pre-trained models for 1 to 10 days from [Baidu netdisk](https://pan.baidu.com/s/1cU6HL5_fK3spra6GtTFV5w?pwd=u52l) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=sharing).
 
 These models are stored using the ONNX format, and thus can be used via different languages such as Python, C++, C#, Java, etc.
 
@@ -59,7 +59,7 @@ We support [GLORYS12 reanalysis](https://data.marine.copernicus.eu/product/GLOBA
 
 There are two input data files that shall be put under the `input_data/input_surface_data` and `input_data/input_deep_data`, which stores the input data for 1 to 22 layers and 23 to 33 layers respectively. The specific details of layers and variables can be found in the following text. 
 
-We provide an example of preprocessed input data, `input_surface_20190101.npy` and `input_deep_20190101.npy`, which correspond to the [daily means of GLORYS12 reanalysis](https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/files?subdataset=cmems_mod_glo_phy_my_0.083deg_P1D-m_202311) data at 2019/01/01. Please download them from [Baidu netdisk](https://pan.baidu.com/s/1Lth8ZSlo-kuOif37jNcI-g?pwd=jceh) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=drive_link).
+We provide an example of preprocessed input data, `input_surface_20190101.npy` and `input_deep_20190101.npy`, which correspond to the [daily means of GLORYS12 reanalysis](https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/files?subdataset=cmems_mod_glo_phy_my_0.083deg_P1D-m_202311) data at 2019/01/01. Please download them from [Baidu netdisk](https://pan.baidu.com/s/1cU6HL5_fK3spra6GtTFV5w?pwd=u52l) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=sharing).
 
 #### Inference 
 
@@ -81,7 +81,7 @@ We use three data to train Xihe:
 - [**ERA5**](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=form): 10m wind field of **u, v**.
 - [**GLORYS12 Reanalysis**](https://data.marine.copernicus.eu/product/GLOBAL_MULTIYEAR_PHY_001_030/files?subdataset=cmems_mod_glo_phy_my_0.083deg_P1D-m_202311) : including **ocean temperature**, **salinity**, **the zonal and meridional components of ocean currents** with a total of 23 layers (i.e.: the 1st layer: 0.49m, the 3rd layer: 2.65m, the 5th layer: 5.08m, the 7th layer: 7.93m, the 9th layer: 11.41m, the 11th layer: 15.81m, the 13th layer: 21.60m, the 15th layer: 29.44m, the 17th layer: GLORYS, the 19th layer: 55.76m, the 21st layer: 77.85m, the 22nd layer: 92.32m, the 23rd layer: 109.73m, the 24th layer: 130.67m, the 25th layer: 155.85m, the 26th layer: 186.13m, the 27th layer: 222.48m, the 28th layer: 266.04m, the 29th layer: 318.31m, the 30th layer: 380.21m, the 31st layer: 453.94m, the 32nd layer: 541.09m, and the 33rd layer: 643.57m)，and **sea surface height above geoid**.
 
-> The main training data of Xihe is the GLORYS12 reanalysis. We also support other ocean data as initial fields, but **the actual depth of the input data layers needs to correspond to the above selected depth**. 
+> The main training data of Xihe is the GLORYS12 reanalysis，which is from 1993 to 2019. We also support other ocean data as initial fields, but **the actual depth of the input data layers needs to correspond to the above selected depth**. 
 
 ### Input data
 
