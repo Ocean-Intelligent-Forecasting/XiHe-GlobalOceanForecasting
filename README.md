@@ -43,7 +43,10 @@ The downloaded files shall be organized as the following hierarchy:
 
 First install the packaged virtual environment `pycdo`（[Baidu netdisk](https://pan.baidu.com/s/1cU6HL5_fK3spra6GtTFV5w?pwd=u52l) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=sharing)）and activate the virtual environment.
 
+## News and Updates
 
+* [2024.02.05] We released the technique details and pre-trained models for 1 to 10 days of Xihe online.
+* [2024.09.22] We update pre-trained models of Xihe online，mainly by optimizing their output layers, which results in better continuity in the details of their outputs.
 
 ## Global ocean forecasting (inference) using the trained models
 
