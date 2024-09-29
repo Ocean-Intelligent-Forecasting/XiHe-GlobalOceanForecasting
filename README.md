@@ -44,9 +44,12 @@ The downloaded files shall be organized as the following hierarchy:
 First install the packaged virtual environment `pycdo`（[Baidu netdisk](https://pan.baidu.com/s/1cU6HL5_fK3spra6GtTFV5w?pwd=u52l) or [Google netdisk](https://drive.google.com/drive/folders/1eZyNOJUTwFVdG19qEpGQ6ZsZg9Nu-Y4L?usp=sharing)）and activate the virtual environment.
 
 ## News and Updates
-
-* [2024.02.05] We released the technique details and pre-trained models for 1 to 10 days of Xihe online.
-* [2024.09.22] We update pre-trained models of Xihe online，mainly by optimizing their output layers, which results in better continuity in the details of their outputs.
+* [2024.09.25] XiHe was presented at [CCF HPC China 2024](https://ccf.org.cn/hpcchina2024).
+* [2024.09.22] The pre-trained models of XiHe online were updated to the optimized version of 2024.08.20.
+* [2024.08.20] We optimized XiHe's output layers to achieve better continuity in the details of the outputs, and updated the related experimental results in its arXiv preprint paper.
+* [2024.05.29] XiHe was presented at [AIOF 3](https://aiof2024.casconf.cn/).
+* [2024.02.08] We released XiHe's pre-trained models for 1 to 10 days online.
+* [2024.02.05] We released the technique details of XiHe online, via the arXiv preprint paper [XiHe: A Data-Driven Model for Global Ocean Eddy-Resolving Forecasting](https://arxiv.org/abs/2402.02995).
 
 ## Global ocean forecasting (inference) using the trained models
 
